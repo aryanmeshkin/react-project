@@ -1,0 +1,26 @@
+.createArticlePage {
+}
+.createArticlePage h1 {
+  text-align: right;
+  margin: 40px 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+.buttonWrapper {
+  text-align: right;
+}
+.buttonWrapper button {
+  padding: 5px 10px;
+  background-color: rgb(21, 119, 119);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  transition: background-Color 0.2s ease ,opacity;
+}
+.buttonWrapper button:hover{
+    background-color:  rgb(13, 73, 73);
+}
+.buttonWrapper button:active{
+    opacity: 0.7;
+}
