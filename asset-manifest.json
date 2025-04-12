@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "//github.io/react-project/static/css/main.7cedf90b.css",
+    "main.js": "//github.io/react-project/static/js/main.12f72534.js",
+    "static/js/453.83dd6e67.chunk.js": "//github.io/react-project/static/js/453.83dd6e67.chunk.js",
+    "static/media/bird-9476034_1920.png": "//github.io/react-project/static/media/bird-9476034_1920.9d33efd7bc4bdf843715.png",
+    "static/media/man-9481358_1920.jpg": "//github.io/react-project/static/media/man-9481358_1920.5d14a31751d8faa0fe93.jpg",
+    "static/media/iran-map.jpg": "//github.io/react-project/static/media/iran-map.041e5c0282ccd6fb33ed.jpg",
+    "index.html": "//github.io/react-project/index.html",
+    "main.7cedf90b.css.map": "//github.io/react-project/static/css/main.7cedf90b.css.map",
+    "main.12f72534.js.map": "//github.io/react-project/static/js/main.12f72534.js.map",
+    "453.83dd6e67.chunk.js.map": "//github.io/react-project/static/js/453.83dd6e67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cedf90b.css",
+    "static/js/main.12f72534.js"
+  ]
+}
