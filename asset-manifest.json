@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/react-project/static/css/main.7cedf90b.css",
-    "main.js": "/react-project/static/js/main.5bfa4771.js",
+    "main.js": "/react-project/static/js/main.99329d64.js",
     "static/js/453.83dd6e67.chunk.js": "/react-project/static/js/453.83dd6e67.chunk.js",
     "static/media/bird-9476034_1920.png": "/react-project/static/media/bird-9476034_1920.9d33efd7bc4bdf843715.png",
     "static/media/man-9481358_1920.jpg": "/react-project/static/media/man-9481358_1920.5d14a31751d8faa0fe93.jpg",
     "static/media/iran-map.jpg": "/react-project/static/media/iran-map.041e5c0282ccd6fb33ed.jpg",
     "index.html": "/react-project/index.html",
     "main.7cedf90b.css.map": "/react-project/static/css/main.7cedf90b.css.map",
-    "main.5bfa4771.js.map": "/react-project/static/js/main.5bfa4771.js.map",
+    "main.99329d64.js.map": "/react-project/static/js/main.99329d64.js.map",
     "453.83dd6e67.chunk.js.map": "/react-project/static/js/453.83dd6e67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cedf90b.css",
-    "static/js/main.5bfa4771.js"
+    "static/js/main.99329d64.js"
   ]
 }
