@@ -15,15 +15,16 @@ function Article() {
   useEffect(() => {
     setIsLoading(true)
     axios
-      .get(`http://localhost:8000/articles/${params.id}`)
+      .get(`https://react-project-8ecc5-default-rtdb.firebaseio.com/articles/${params.id}.json`)
       .then((response) => {
-        setState(response.data);
+        
+        setState(response.data || {});
         setIsLoading(false)
       })
       .catch((error) => {
         setIsLoading(false)
       });
-  }, []);
+  }, [params.id]);
 
 
   return (

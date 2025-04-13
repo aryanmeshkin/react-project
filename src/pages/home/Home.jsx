@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import Article from "../../components/article/Article";
 import Navbar from "../../components/navbar/Navbar";
@@ -13,10 +14,16 @@ function Home() {
   useEffect(() => {
     setIsLoading(true);
     axios
-      .get("http://localhost:8000/articles")
+      .get("https://react-project-8ecc5-default-rtdb.firebaseio.com/articles.json")
       .then((response) => {
-        setArticles(response.data);
+        const data = response.data;
+        const articlesArray = Object.entries(data || {}).map(([key,value])=>({
+          ...value,
+          id: key,
+        }))
+        setArticles(articlesArray);
         setIsLoading(false);
+        console.log(response);
       })
       .catch((error) => {
         console.log(error);

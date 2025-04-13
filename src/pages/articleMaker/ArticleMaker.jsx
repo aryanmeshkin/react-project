@@ -58,8 +58,8 @@ function ArticleMaker() {
   };
   const handleCreateNewArticle = () => {
     console.log(article);
-    axios.post("http://localhost:8000/articles",{
-      id: 9,
+    axios.post("https://react-project-8ecc5-default-rtdb.firebaseio.com/articles.json",{
+      id: Date.now(),
       imageUrl: article.imageURL,
       title: article.title,
       readingTime: article.time,
